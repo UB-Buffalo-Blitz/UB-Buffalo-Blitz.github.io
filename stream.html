@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="The Buffalo Blitz is the University at Buffalo's premire gaming event">
+        <title>Buffalo Blitz</title>
+        <link rel="icon" href="" type="image/x-icon">
+        <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="#index">Buffalo Blitz</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#stream">Stream</a>
+                <a href="#register">Register</a>
+		    </div>
+        </header>
+        <main>
+            <body>
+            <!--iframe src="http://player.twitch.tv/?channel=ubuffaloesports" allowfullscreen height="480" width="854" *class="col-md-12"></iframe-->
+                <body>
+                    <!-- Add a placeholder for the Twitch embed -->
+                    <div id="twitch-embed"></div>
+                
+                    <!-- Load the Twitch embed script -->
+                    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                
+                    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+                    <script type="text/javascript">
+                      new Twitch.Embed("twitch-embed", {
+                        width: 854,
+                        height: 480,
+                        channel: "ubuffaloesports",
+                        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+                        parent: ["github.com, ub-buffalo-blitz.github.io"]
+                      });
+                    </script>
+                </body>            
+            </body>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
+
+
 
