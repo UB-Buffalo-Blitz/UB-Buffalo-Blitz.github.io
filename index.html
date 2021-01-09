@@ -13,6 +13,13 @@
                 padding-right: 5px;
                 color: #000000;
             }
+
+            .horizontal-line {
+                border: none;
+                border-top: 4px solid #005bbb; 
+                height: 1px;
+                background-color: #005bbb;
+            }
         </style>
         <!-- Favicon -->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -25,7 +32,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand text-light" href="index.html">Buffalo Blitz</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,19 +49,59 @@
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="register.html">Register</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
                         </ul>
                     </div>
                   </div>
             </nav>
-            ​<picture>
-                <img src="ub-esports-banner-text.png" class="img-fluid img-thumbnail">
-            </picture>
+            ​<div class="text-center">
+                <img src="ub-esports-banner-text.png" class="rounded">
+            </div>
         </header>
         <main style="background-color:#000000;">
-            <p class="fs-1 fw-bold text-light">About</p>
+            <p class="fs-1 fw-bold text-light text-center">About</p>
+            <div class="container">
+                <p class="text-light fs-4">
+                    The Buffalo Blitz is the University at Buffalo’s inaugural gaming festival. Despite the challenges posed by COVID-19,
+                    we seek to bring together the collegiate community in the United States Northeast in celebrate all the great things
+                    gaming has done for our communities, and to discuss how to move ourselves forward in the collegiate space.
+                </p>
+                <p class="text-light fs-4">
+                    To that end, the Buffalo Blitz will feature 8 separate gaming tournaments, and 5 panels. The event will be held
+                    virtually on March 5th – 7th. Everyone is invited to come participate, whether it be as a competitor, a speaker,
+                    or spectator!
+                </p>
+            </div>
+            <hr class="horizontal-line">
+            <p class="fs-1 fw-bold text-light text-center">FAQ</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <details>
+                            <summary class="text-light">
+                                Test summary
+                            </summary>
+                            <div class="text-light">
+                                Test inner text
+                            </div>
+                        </details>
+                    </div>
+                    <div class="col-md">
+                        <details>
+                            <summary class="text-light">
+                                Test summary
+                            </summary>
+                            <div class="text-light">
+                                Test inner text
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            <hr class="horizontal-line">
+            <p class="fs-1 fw-bold text-light text-center">Partners</p>
+            <hr class="horizontal-line">
+            <p class="fs-1 fw-bold text-light text-center">Leads</p>
+            <hr class="horizontal-line">
         </main>
         <footer>
             <div style="text-align:center;">
